@@ -32,12 +32,12 @@ def perform_kron_reduction(z_primitive):
 
         Ẑnn is of dimension mxm, where m is the number of neutrals. E.g. with
         m = 2:
-                                          Ẑan = [Ẑan₁,  Ẑan₂]
-                                                [Ẑbn₁,  Ẑbn₂]
-                                                [Ẑcn₁,  Ẑcn₂]
+                                          Ẑan = [Ẑan1,  Ẑan2]
+                                                [Ẑbn1,  Ẑbn2]
+                                                [Ẑcn1,  Ẑcn2]
 
-              Ẑna = [Ẑn₁a, Ẑn₁b, Ẑn₁c]    Ẑnn = [Ẑn₁n₁, Ẑn₁n₂]
-                    [Ẑn₂a, Ẑn₁b, Ẑn₁c]          [Ẑn₂n₁, Ẑn₂n₂]
+              Ẑna = [Ẑn1a, Ẑn1b, Ẑn1c]    Ẑnn = [Ẑn1n1, Ẑn1n2]
+                    [Ẑn2a, Ẑn2b, Ẑn2c]          [Ẑnn1, Ẑn2n2]
 
         Definitions:
         Ẑ ----- "primative" impedance value, i.e. one that does not factor
